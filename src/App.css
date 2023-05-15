@@ -1,12 +1,36 @@
+html{
+  font-size: 12px;
+}
 .App {
   text-align: center;
   padding: 1em;
+}
+.nav{
+  background-color: rgb(185, 185, 185);
+}
+.splash{
+  background-color: rgb(65, 65, 211);
+  color: white;
+}
+hr{
+  height: 0.3em;
+  border: none;
+  background-color: rgb(206, 206, 25);
+  margin: 0em 2em;
 }
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
-
+.g5{
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.g4{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+h1{
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
 
 
