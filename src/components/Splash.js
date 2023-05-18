@@ -5,7 +5,7 @@ const Splash = () => {
         
         <h1>Learn with Nexus</h1>
         <hr></hr>
-        <h1>Courses</h1>
+        <h1>Courses</h1>        
         </div>
     )
 

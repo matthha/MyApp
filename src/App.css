@@ -3,22 +3,37 @@ html{
 }
 .App {
   text-align: center;
-  padding: 1em;
+  padding: 3em;
+  margin: 0em;
 }
 .nav{
-  background-color: rgb(185, 185, 185);
+  background-color: #e5e6e7;
+  color: #00274c;
 }
 .splash{
+  margin: 0px;
+  padding: 0px;
   background-color: rgb(65, 65, 211);
+  background-image: linear-gradient(180deg,#00274c 0,#004c72 100%);
   color: white;
+}
+.splash > h1 {
+  margin: 0px;
+  padding: 1em;
+  text-align: left;
+  
+}
+.splash hr + h1 {
+  font-size: 200%;
 }
 hr{
   height: 0.3em;
   border: none;
-  background-color: rgb(206, 206, 25);
+  background-color:#FFCB05;;
   margin: 0em 2em;
 }
 .grid {
+  padding: .5em;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -31,6 +46,9 @@ hr{
 h1{
   font-size: 1.5em;
   text-transform: uppercase;
+}
+.b:hover{
+  background-color:#FFCB05;
 }
 
 
