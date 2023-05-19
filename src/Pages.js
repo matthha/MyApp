@@ -7,4 +7,4 @@
 // }
 //     export default Pages;
 
-const courses = {'Learn': '<div>This was the first attempt</div>','Course':'<div>Also part of the first attempt</div>'};
+export const courses = {'Learn': '<div className="b">This was the first attempt</div>','Course':'<div>Also part of the first attempt</div>'};

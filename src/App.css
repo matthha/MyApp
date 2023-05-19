@@ -18,8 +18,8 @@ html{
   color: white;
 }
 .splash > h1 {
-  margin: 0px;
-  padding: 1em;
+  margin: 0px 10%;
+  /* padding: 1em; */
   text-align: left;
   
 }
