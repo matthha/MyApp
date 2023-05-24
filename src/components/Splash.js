@@ -1,4 +1,4 @@
-const Splash = () => {
+const Splash = (props) => {
 
     return (
         <div className="splash">
