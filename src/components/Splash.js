@@ -1,11 +1,11 @@
-const Splash = (props) => {
+const Splash = ({ t1, t2 }) => {
 
     return (
         <div className="splash">
         
-        <h1>Learn with Nexus</h1>
+        <h1>{t1}</h1>
         <hr></hr>
-        <h1>Courses</h1>        
+        <h1>{t2}</h1>        
         </div>
     )
 
