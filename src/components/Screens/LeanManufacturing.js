@@ -2,11 +2,23 @@ const LeanManufacturing = (props) => {
     return (
         <div className="grid g1-3">
             <div className="info c1">
+                <h1>KEY INFORMATION</h1>
                 <div className="dat">
-                    <h1>Dates of First</h1>
-                </div>
-                <div className="dat">
-                    <h1>Dates of Second</h1>
+                    <h1>Course Dates</h1>
+                        <p> Oct 30, 2023</p>
+                        <p>$3250</p>
+                        <p>Ann Arbor, MI</p>
+                        <button>Register</button>
+                    <hr></hr>
+                        <p> Oct 30, 2023</p>
+                        <p>$3250</p>
+                        <p>Ann Arbor, MI</p>
+                        <button>Register</button>
+                    <h1>Time Commitment</h1>
+                        <p>10 Days</p>
+                    <h1>CEUs</h1>
+                        <p>8</p>
+                    
                 </div>
             </div>
             <div className="class-stuff c2-3">

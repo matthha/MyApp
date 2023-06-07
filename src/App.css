@@ -9,6 +9,22 @@ html{
   font-family: 'Nunito', sans-serif;
 
 }
+p,li{
+  line-height: 150%;
+}
+body {
+  margin: 5px;
+}
+.dat h1{
+  background: #00274c;
+  color:#e5e6e7
+}
+.dat p, .info > h1 {
+  color: #00274c;
+}
+ul {
+  list-style: disc inside none;
+}
 .nav{
   background-color: #e5e6e7;
   color: #00274c;
@@ -47,12 +63,26 @@ hr{
 .g4{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   display: grid;
+  gap: 10px;
 }
 .g2{
   grid-template-columns: 1fr 1fr;
   border: 1px solid blue;
   display: grid;
   
+}
+.g2 * {
+  padding:2px;
+}
+.g2 button, .dat button{
+  background: #FFCB05;
+  color:#00274c;
+  text-transform: uppercase;
+  margin: 3px;
+}
+.g2 h2 {
+  font-weight: bolder;
+  color:#00274c
 }
 
 h1{
@@ -67,6 +97,11 @@ h1{
   text-align: left;
   padding: 1em;
   font-size: 0.8em;
+}
+.tile h2, .tile button{
+  grid-column: 1/-1;
+  width: auto;
+  justify-self: center;
 }
 .g1-3{
   grid-template-columns: 1fr 3fr;

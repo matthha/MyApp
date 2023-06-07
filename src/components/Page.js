@@ -1,7 +1,6 @@
 import { courses } from '../Pages.js'
-import Splash from './Splash';
 
-const parse = require('html-react-parser');
+// const parse = require('html-react-parser');
 
 const Page = (props) => {
  
@@ -9,9 +8,10 @@ const Page = (props) => {
     return (
         <div className="page">
         {/* Using {screen} to 'select' the page we want to load. */}
+        {/* {props.screen === 'Learn' && <div>'Learn'</div>} */}
+        {props.screen === 'Learn' ? 'Learn ✔' : 'Screen is ' + props.screen}
         {(courses[props.screen])}
-        {props.screen === 'Learn' && <div>'Learn'</div>}
-        {true ? 'Learn' + ' ✔' : 'name'}
+
 
         {/* { if ({props.screen} === 'Learn') {return <div>'Learn'</div>} } */}
         {/* The component is 'compiled' in Pages 
